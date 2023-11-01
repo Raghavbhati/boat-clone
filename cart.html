@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="/shivering-need-4074/footer.css">
+    <link rel="stylesheet" href="/shivering-need-4074/navbar.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:wght@100;200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.appengine.ai/uploads/images/profile/logo/boAt-AI.png" type= "image/x-icon">
+</head>
+
+<body>
+    <div id="cartMain">
+        <h1>Cart</h1>
+        <div id=cartContainer>
+            <div id="leftSidecart">
+                <div id="titleCart">
+                    <div id="firstChild">
+                        <p class="detailsHeading">Product</p>
+                    </div>
+                    <div id="secondchild">
+                        <p class="detailsHeading">Quantity</p>
+                    </div>
+                    <div id="thirdchild">
+                        <p class="detailsHeading">Price</p>
+                    </div>
+                </div>
+                <div id="showCartDetails">
+
+                </div>
+            </div>
+            <div id="rightSidecart">
+                <div id="rightsideDetails">
+                    <div>
+                        <h4>Total</h4>
+                    </div>
+                    <div id="totalPrice">
+                        <!-- Total will be appende here -->
+                    </div>
+                </div>
+                <p>Shipping and Taxes calculated At Checkout</p>
+                <div id="rightSidebtn">
+                    <button class="ConfirmOrderBTN">Confirm Order</button>
+                    <button class="ConfirmOrderBTN">Pay with Card</button>
+                </div>
+                <div id="coupenDiv">
+                    <div id="coupenInput">
+                        <p>Coupons and offers</p>
+                        <input type="text" id="Entercoupen" placeholder="Use 'Raghav' To Get 50% OFF">
+                        <button id="coupensubmitBtn">Submit Coupon</button>
+                    </div>
+                    <div id="coupenOutput">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./cart.js"></script>
+</html>
